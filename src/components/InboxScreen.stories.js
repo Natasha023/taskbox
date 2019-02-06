@@ -20,4 +20,4 @@ const store = {
 storiesOf('InboxScreen', module)
 .addDecorator(story => <Provider store={store}>{story()}</Provider>)
   .add('default', () => <PureInboxScreen />)
-  .add('error', () => <PureInboxScreen error="Something" />);
+  .add('error', () => <PureInboxScreen error="Oops!" />);
